@@ -1,73 +1,105 @@
-# Basic-Bank-Managment-system
-<h2>SARANGKRISHNA M SURESH <br>25BAI10043 <br>Vityarthi Project</h2>
+Basic Banking Management System 
 
-A simple Banking Management System implemented in Python, featuring an Admin Login System, Bank Account Management, and Admin Account Creation.
-This project is designed for beginners learning file handling, conditoning , loop and use of inbuit and self built function in Python
+SARANGKRISHNA M SURESH 25BAI10043 Vityarthi Project 
+
+
+
+This is a simple Banking Management System developed using Python.
+
+ It includes an Admin Login System, Bank Account Management, and the ability to create Admin Accounts. This project is intended for beginners who are learning about file handling, conditions, loops, and the use of built-in and custom functions in Python.
+
+
 
 ## Features
-<ul>
-<li>Admin Features</li>
-<li>Admin Login System</li>
-<li>Create new Admin Accounts</li>
-<li>View Login Details</li>
-<li>Access all banking operations</li>
-</ul>
-
-## Bank Account Features
-<ul>
-<li>Create new Bank Accounts</li>
-<li>Delete existing bank accounts</li>
-<li>Search for bank accounts by ID or name</li>
-<li>Display all bank accounts</li>
-</ul>
-
-## Technologies Used
-<ul>
-<li>Python 3.15.3</li>
-<li>CSV File Handling (csv module)</li>
-</ul>
 
 
-## How to Run the Project
-<uol>
-<li>Clone the repository:git clone https://github.com/your-username/banking-system.git</li>
-<li>Navigate to the project folder:cd banking-system</li>
-<li>Run the program:python main.py</li>
-</ol>
+
+### Admin Features 
+
+- Admin Login System 
+
+- Ability to create new Admin Accounts 
+
+- View login details 
+
+- Access all banking operations 
 
 
-## Functionality Overview
-<ul>
-<li>Admin Panel</li>
-<li>Login using admin ID & password.</li>
-<li>Create new admin accounts.</li>
-<li>View all login credentials (secured).</li>
-</ul>
 
-## Bank Account Management
-<ul>
-<li>Add new customer accounts (name, ID, balance, etc.)</li>
-<li>Delete customer accounts by ID.</li>
-<li>Search customer by:
-    <ol>
-    <li>Account ID</li>
-    <li>Customer Name</li>
-    </ol>
-</li>
-<li>View all accounts stored in the CSV file.</li>
-</ul>
+### Bank Account Features 
+
+- Create new Bank Accounts 
+
+- Delete existing bank accounts 
+
+- Search for bank accounts by ID or name 
+
+- Display all bank accounts 
 
 
-## Security
-<ul>
-<li>Admin passwords are validated before storing.</li>
-<li>Login IDs and passwords stored in CSV (can be upgraded to hashing).</li>
-</ul>
 
-## Future Improvements
-<ul>
-<li>Use hashed passwords for login security.</li>
-<li>Add money deposit & withdrawal system.</li>
-<li>Add transaction history.</li>
-<li>Implement a GUI using Tkinter/HTML.</li>
-<ul>
+## Technologies Used 
+
+- Python 3.15.3 
+
+- CSV File Handling (using the csv module) 
+
+
+
+## How to Run the Project 
+
+1.Clone the repository: `git clone https://github.com/your-username/banking-system.git` 
+
+2.Navigate to the project folder: `cd banking-system` 
+
+3.Run the program: `python main.py` 
+
+
+
+## Functionality Overview 
+
+
+
+### Admin Panel 
+
+- Log in using an admin ID and password 
+
+- Create new admin accounts 
+
+- View all login credentials securely 
+
+
+
+### Bank Account Management 
+
+- Add new customer accounts with details such as name, ID, and balance 
+
+- Delete customer accounts by ID 
+
+- Search for customers by: 
+
+ - Account ID 
+
+ - Customer Name 
+
+- Display all accounts stored in the CSV file 
+
+
+
+## Security 
+
+- Admin passwords are validated before being stored 
+
+- Login IDs and passwords are stored in CSV files (can be upgraded to use hashing for better security) 
+
+
+
+## Future Improvements 
+
+- Implement hashed passwords for login security 
+
+- Add features for money deposit and withdrawal 
+
+- Include a transaction history system 
+
+- Develop a Graphical User Interface (GUI) using Tkinter or HTML
